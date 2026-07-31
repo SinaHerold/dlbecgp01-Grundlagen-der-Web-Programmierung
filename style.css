@@ -219,6 +219,34 @@ tr:nth-child(even){
     background-color: #f7f7f7;
 }
 
+.search-section{
+    margin: 40px 0;
+    text-align: center;
+}
+
+.search-section input{
+    width: 320px;
+    max-width: 80%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.search-section button{
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    background-color: #0b5ed7;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.search-section button:hover{
+    background-color: #084298;
+}
+
 footer{
     background-color: #17375e;
     color: white;

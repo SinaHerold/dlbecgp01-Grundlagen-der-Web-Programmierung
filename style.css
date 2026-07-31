@@ -14,18 +14,18 @@ body {
 .container{
     width: 90%;
     max-width: 1100px;
-    margin: 40px auto;
+    margin: 0 auto;
 }
 
 header {
     background-color: #0b5ed7;
     color: white;
-    padding: 60px 20px;
+    padding: 40px 20px;
     text-align: center;
 }
 
 header p{
-    margin-top: 10px;
+    margin-top: 1cap;
 }
 
 nav {
@@ -70,9 +70,21 @@ nav a:active{
 
 .cards{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
     margin: 40px 0;
+}
+
+@media (max-width: 900px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px){
+    .cards{
+        grid-template-columns: 1fr;
+    }
 }
 
 .card{
@@ -245,6 +257,15 @@ tr:nth-child(even){
 
 .search-section button:hover{
     background-color: #084298;
+}
+
+.add-card{
+    border: 2px dashed #0b5ed7;
+    text-align: center;
+}
+
+.add-card h3{
+    color: #0b5ed7;
 }
 
 footer{

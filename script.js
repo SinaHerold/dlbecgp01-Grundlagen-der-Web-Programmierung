@@ -55,3 +55,10 @@ document.addEventListener("DOMContentLoaded", function() {
         lastModifiedElement.textContent = "Letzte Änderung: " + datum + " um " + uhrzeit + " Uhr ";
     }
 });
+
+function addWord() {
+    alert(
+        "Diese Funktion ist Bestandteil des Prototyps. \n\n" +
+        "In einer späteren Version können Mitarbeitende hier neue Begriffe anlegen."
+    );
+}

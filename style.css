@@ -251,5 +251,12 @@ footer{
     background-color: #17375e;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#lastModified{
+    font-size: 0.9rem;
+    color: #d9e7ff;
+    margin-top: 10px;
 }

@@ -268,6 +268,14 @@ tr:nth-child(even){
     color: #0b5ed7;
 }
 
+.api-image, .rest-image{
+    max-width: 700px;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
 footer{
     background-color: #17375e;
     color: white;

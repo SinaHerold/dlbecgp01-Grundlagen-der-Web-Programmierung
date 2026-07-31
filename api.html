@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log7-Consult Glossar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+        <h1>Log7-Consult GmbH</h1>
+        <p>Online-Glossar für IT-Begriffe</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="javascript.html">JavaScript</a></li>
+                <li><a href="API.html">API</a></li>
+                <li><a href="rest.html">REST</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+
+    <article class="content">
+        <h2>API - Application Programming Interface</h2>
+        <p>Eine API gewährleistet den Datenaustausch zwischen verschiedenen Softwareanwendungen.
+            Dadurch können Programme Informationen austauschen, ohne die interne Funktionsweise
+            des anderen Systems kennen zu müssen. APIs sind in der modernen Softwareentwicklung 
+            unverzichtbar, da sie die Integration von Diensten und Anwendungen erleichtern.
+        </p>
+
+        <div class="info-box">
+            <h3>Merke</h3>
+            <p>APIs verbinden unterschiedliche Softwaresysteme miteinander.</p>
+        </div>  
+
+        <h3>Einsatzgebiete</h3>
+        <ul>
+            <li>Integration von Drittanbieter-Diensten</li>
+            <li>Automatisierung von Prozessen</li>
+            <li>Bereitstellung von Daten für externe Anwendungen</li>
+            <li>Ermöglichen von Microservices-Architekturen</li>
+        </ul>
+
+        <h3>Code-Beispiele</h3>
+        <pre><code>fetch('https://api.example.com/data')
+            .then(response => response.json())
+            .then(data => console.log(data))
+            .catch(error => console.error('Error:', error));
+        </code></pre>
+
+        <h3>Weiterführende Informationen</h3>
+        <a href="https://developer.mozilla.org/de/docs/Learn/JavaScript/Client-side_web_APIs/Introduction" target="_blank">
+            MDN Web Docs - Einführung in Web APIs   
+        </a>
+
+    </article>
+</main>
+
+    <footer>
+        <p>© Log7-Consult GmbH 2026  |  <a href="impressum.html">Impressum</a></p>
+    </footer>
+
+</body>
+</html>
+
+
